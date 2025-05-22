@@ -38,8 +38,10 @@ nos resultados da execução do código gerado. Por exemplo:
 
 **Q1. Compare o valor das médias entre os métodos.**
 
-Em cada passo, recomenda-se que o texto da prompt seja adicionado a uma célula 
-markdown, anterior à célula de código que foi gerada a partir desta. 
+Note-se que é possível que o chat com o Gemini não seja arquivado. Por isso, em 
+cada passo, recomenda-se que o texto da prompt seja adicionado a uma célula 
+markdown, anterior à célula de código que foi gerada a partir desta, com uma nota
+explicativa do que se pretende fazer. 
 
 São também adicionados blocos de texto com explicação ou apontadores externos para mais documentação:
 
@@ -55,7 +57,7 @@ Aceda à pasta Google Drive onde pretende criar o novo notebook Colab. Nesta,
 crie um novo Google Colab. Para melhor documentar o seu notebook:
 - altere o nome do notebook para `Exerc_01.ipynb`
 - adicione um título numa célula markdown no topo do notebook, por exemplo
-`# Análise exploratória de dados`
+`# Análise exploratória de dados - Parte 1`
 
 > Sobre o **Markdown**: É uma linguagem de formatação simples que permite adicionar 
 estilos a texto. Por exemplo, para formatar com itálico, é necessário apenas colocar
