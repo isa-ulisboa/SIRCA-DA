@@ -137,7 +137,7 @@ import MySQLdb
 from datetime import datetime
 
 app = Flask(__name__)
-db = MySQLdb.connect(host="localhost", user="youruser", passwd="yourpass", db="soil_data")
+db = MySQLdb.connect(host="localhost", user="app_user", passwd="app_passwd", db="soil_data")
 
 # esta parte gera o serviço de submissão dos dados via API
 @app.route("/submit", methods=["POST"])
